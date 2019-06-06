@@ -10,6 +10,6 @@ jobs:
     name: TypeScript / ESLint / Tests
     script:
     #- "npm outdated"
-    - "npm run lint"
+    # - "npm run lint"
     - "npm run typecheck"
     - "npm test"
