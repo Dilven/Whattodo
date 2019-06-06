@@ -8,6 +8,12 @@
 - SSR
 - PWA
 - TypeScript
+- WhyDidYouUpdate
+- PureComponent
+- React.memo
+- Suspense
+- React.lazy()
+- Dynamic import
 
 - Where is cafe?
 - Trams and bus
