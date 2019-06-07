@@ -1,6 +1,7 @@
 ## Whattodo
 
 - Tests
+- Swager
 - Hooks
 - Scss
 - Contex
