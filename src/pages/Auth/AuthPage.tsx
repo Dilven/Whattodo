@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
 import { getUser } from '../../domain/googleAuth';
 import { getHashParams } from '../../helpers/getLocationParams';
+import { LocationState } from 'history';
 
 interface Props {
-  location: { hash: string };
+  location: LocationState;
 }
 
 export const AuthPage = ({ location }: Props) => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { authLink } from '../../helpers/googleAuth';
+import { authLink } from '../../domain/googleAuth';
 
 export const RegisterPage = () => {
   return (
