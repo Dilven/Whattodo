@@ -1,5 +1,4 @@
 import { paths } from '../configs/paths.config';
-import qs from 'qs';
 
 const options = {
   scope: 'https://www.googleapis.com/auth/userinfo.email',
@@ -16,12 +15,6 @@ const params = Object.entries(options).reduce(
 );
 
 export const authLink = `https://accounts.google.com/o/oauth2/v2/auth?${params}`;
-
-export const getAccessTokenFromLocation = (location: { hash: string }) => {
-  const { hash } = location;
-  const hashParams = qs.parse(hash.slice(1));
-  return hashParams.access_token;
-};
 
 export const getUser = async (accessToken: string) => {
   const config = {
